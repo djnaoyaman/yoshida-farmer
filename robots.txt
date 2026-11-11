@@ -10,4 +10,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://djnaoyaman.github.io/yoshida-farmer/sitemap.xml
+Sitemap: https://yoshida-farm.co.jp/sitemap.xml
