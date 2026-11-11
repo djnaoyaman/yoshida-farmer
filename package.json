@@ -1,0 +1,5 @@
+{
+  "name": "yoshida-farmer-site",
+  "private": true,
+  "scripts": { "test": "node --test tests/seo.test.cjs" }
+}

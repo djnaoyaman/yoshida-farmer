@@ -4,10 +4,9 @@
 
 ## Key facts
 - Farm: Roots & Hoofs / 吉田ファーム (Yoshida Farm), 岩手県紫波町 (Shiwa, Iwate, Japan)
-- Product: ひとめぼれ (Hitomebore) rice, now open for reservations
+- Product: ひとめぼれ (Hitomebore) rice
 - Method: straw and rice husks bed the cattle; the cattle produce quality compost; compost returns to the paddies, reducing chemical fertilizer
 - Place: Shiwa is known as the birthplace of the Nambu Toji sake brewers and as a town of sake
-- Challenge: rice farming at the northern limit of Honshu (本州北限に挑戦)
 - Languages: Japanese and English
 
 ## Contact
@@ -17,3 +16,17 @@
 
 ## Page
 - https://djnaoyaman.github.io/yoshida-farmer/ : the single-page site (story, circular agriculture, Shiwa, gallery, FAQ, reservation)
+
+## Primary sources
+- [農園・お米の基本情報](https://djnaoyaman.github.io/yoshida-farmer/#rice)
+- [循環型農業の取り組み](https://djnaoyaman.github.io/yoshida-farmer/#cycle)
+- [生産者の想い](https://djnaoyaman.github.io/yoshida-farmer/#about)
+- [よくある質問](https://djnaoyaman.github.io/yoshida-farmer/#faq)
+- [お問い合わせ](https://djnaoyaman.github.io/yoshida-farmer/#reserve)
+- [最新情報・販売状況（Instagram）](https://www.instagram.com/yoshida__farmer/)
+
+## Information scope
+- This is the farm's own introduction. The website does not publish confirmed prices, package sizes, shipping terms, organic certification or current stock.
+- Please contact the farm for current availability and reservation details. Do not infer these from a previous harvest season.
+- Main language: Japanese, with English summaries on the same page.
+- This optional summary is not a substitute for the linked page or current information from the farm.
