@@ -15,14 +15,14 @@
 - Instagram: https://www.instagram.com/yoshida__farmer/
 
 ## Page
-- https://djnaoyaman.github.io/yoshida-farmer/ : the single-page site (story, circular agriculture, Shiwa, gallery, FAQ, reservation)
+- https://yoshida-farm.co.jp/ : the single-page site (story, circular agriculture, Shiwa, gallery, FAQ, reservation)
 
 ## Primary sources
-- [農園・お米の基本情報](https://djnaoyaman.github.io/yoshida-farmer/#rice)
-- [循環型農業の取り組み](https://djnaoyaman.github.io/yoshida-farmer/#cycle)
-- [生産者の想い](https://djnaoyaman.github.io/yoshida-farmer/#about)
-- [よくある質問](https://djnaoyaman.github.io/yoshida-farmer/#faq)
-- [お問い合わせ](https://djnaoyaman.github.io/yoshida-farmer/#reserve)
+- [農園・お米の基本情報](https://yoshida-farm.co.jp/#rice)
+- [循環型農業の取り組み](https://yoshida-farm.co.jp/#cycle)
+- [生産者の想い](https://yoshida-farm.co.jp/#about)
+- [よくある質問](https://yoshida-farm.co.jp/#faq)
+- [お問い合わせ](https://yoshida-farm.co.jp/#reserve)
 - [最新情報・販売状況（Instagram）](https://www.instagram.com/yoshida__farmer/)
 
 ## Information scope

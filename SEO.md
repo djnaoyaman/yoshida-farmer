@@ -1,6 +1,6 @@
 # 検索・SNS・AI検索の運用
 
-公開URL: https://djnaoyaman.github.io/yoshida-farmer/
+公開URL: https://yoshida-farm.co.jp/
 
 ## 実装
 - 検索を禁止していた noindex / nofollow を解除。canonical と日本語のページ情報を維持。
