@@ -5,6 +5,23 @@ const path=require('node:path');
 const root=path.join(__dirname,'..');
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const base='https://djnaoyaman.github.io/yoshida-farmer/';
+test('GTM initializes once and loads the requested container asynchronously',()=>{
+  const vm=require('node:vm');
+  const snippet=html.match(/<!-- Google Tag Manager -->\s*<script>([\s\S]*?)<\/script>/)[1];
+  const existing={parentNode:{insertBefore(node,before){assert.equal(before,existing);this.inserted=node;}}};
+  const window={dataLayer:[{event:'existing-event'}]};
+  const document={getElementsByTagName:()=>[existing],createElement:()=>({})};
+  vm.runInNewContext(snippet,{window,document,Date});
+  assert.equal(window.dataLayer.length,2);
+  assert.equal(window.dataLayer[0].event,'existing-event');
+  assert.equal(window.dataLayer[1].event,'gtm.js');
+  assert.equal(typeof window.dataLayer[1]['gtm.start'],'number');
+  assert.equal(existing.parentNode.inserted.async,true);
+  assert.equal(existing.parentNode.inserted.src,'https://www.googletagmanager.com/gtm.js?id=GTM-574G3CDL');
+  assert(html.includes('<body>\n<!-- Google Tag Manager (noscript) -->'));
+  assert.equal((html.match(/ns.html\?id=GTM-574G3CDL/g)||[]).length,1);
+  assert(!html.includes('gtag('));
+});
 test('production page is indexable with one canonical and one h1',()=>{
   assert(!/noindex|nofollow/i.test(html));
   assert.equal((html.match(/rel="canonical"/g)||[]).length,1);
